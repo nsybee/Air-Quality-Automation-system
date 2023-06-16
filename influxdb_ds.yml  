@@ -1,0 +1,6 @@
+datasources:
+- name: influxdb
+  access: proxy
+  type: influxdb
+  url: http://172.0.0.100:3000
+  isDefault: true
